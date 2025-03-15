@@ -1,14 +1,14 @@
 # Language Preferences Chrome Extension
 
-A simple Chrome extension to allow to customize the language options on the Google Translate page. 
+A simple Chrome extension to allow customizing the language options on the Google Translate page.
 
 
 ## Tutorial Links
-- [Extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101/)
+- [Extension Tutorial](https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101/)
 
 ## Features
 - Compatible with Google Translate page (`https://translate.google.com/`).
-- Supports only English and Russian interface languages.
+- Supports only **English** and **Russian** interface languages for now, as the extension matches the needed buttons by their labels.
 - Save and load language preferences using `chrome.storage`.
 
 ## Installation
@@ -19,10 +19,13 @@ A simple Chrome extension to allow to customize the language options on the Goog
 
 ## Usage
 - The extension displays customizable target language buttons on the Google Translate page.
-- The user can toggle which languages are visible by saving their preferences (click on extension icon in top bar).
+- The user can toggle which languages are visible by saving their preferences (click on the extension icon in the top bar).
 
 ### File Structure
-- popup.html: A form for inputting API details.
-- popup.js: Handles the popup window for the extension, allowing to select and save language preferences.
-- background.js: Listens for messages and coordinates tasks like updating language buttons across open tabs.
-- content.js: Script that interacts with the Google Translate page
+- **popup.html**: A form for inputting API details.
+- **popup.js**: Handles the popup window for the extension, allowing users to select and save language preferences.
+- **background.js**: Listens for messages and coordinates tasks like updating language buttons across open tabs.
+- **content.js**: Script that interacts with the Google Translate page.
+
+## License
+This project is open-source and available under the [MIT License](LICENSE).
