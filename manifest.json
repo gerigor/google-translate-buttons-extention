@@ -3,6 +3,12 @@
   "name": "Google Translate Language Buttons Extension",
   "description": "Adds more language buttons to Google Translate",
   "version": "0.7",
+  "icons": {
+    "16": "images/logo.png",
+    "32": "images/logo.png",
+    "48": "images/logo.png",
+    "128": "images/logo.png"
+  },
   "permissions": [
     "storage",
     "tabs",
