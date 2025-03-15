@@ -1,0 +1,14 @@
+.custom-language-btn {
+  background-color: #f1f3f4;
+  color: #202124;
+  padding: 8px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.custom-language-btn:hover {
+  background-color: #e8eaed;
+}

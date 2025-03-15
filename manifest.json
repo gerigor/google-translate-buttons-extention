@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Google Translate Language Buttons Extension",
+  "description": "Adds more language buttons to Google Translate",
+  "version": "0.7",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://translate.google.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
