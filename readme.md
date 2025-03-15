@@ -26,7 +26,7 @@ By default, Google Translate shows only 3 buttons with the last selected languag
 - The user can toggle which languages are visible by saving their preferences (click on the extension icon in the top bar).
 
 ### File Structure
-- **popup.html**: A form for inputting API details.
+- **popup.html**: A form for inputting language preferences.
 - **popup.js**: Handles the popup window for the extension, allowing users to select and save language preferences.
 - **background.js**: Listens for messages and coordinates tasks like updating language buttons across open tabs.
 - **content.js**: Script that interacts with the Google Translate page.
